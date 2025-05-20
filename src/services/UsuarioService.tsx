@@ -8,7 +8,7 @@ class UsuarioService {
         return axios.get(URL_BASE);
     }
 
-    findById(idUsuario: number) {
+    findById(idUsuario: string) {
         return axios.get(URL_BASE + "/" + idUsuario);
     }
 
@@ -16,11 +16,11 @@ class UsuarioService {
         return axios.post(URL_BASE, usuario);
     }
 
-    update(idUsuario: number, usuario: object) {
+    update(idUsuario: string, usuario: object) {
         return axios.put(URL_BASE + "/" + idUsuario, usuario);
     }
 
-    delete(idUsuario: number) {
+    delete(idUsuario: string) {
         return axios.delete(URL_BASE + "/" + idUsuario);
     }
 
