@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_BASE = "https://plantrabajoitst-production.up.railway.app/actividad";
+const URL_BASE = "backend-programa-f6evc9hkgph4hue9.canadacentral-01.azurewebsites.net/actividad";
 
 class ActividadService {
     findAll() {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_BASE = "https://plantrabajoitst-production.up.railway.app/unidad-medida";
+const URL_BASE = "backend-programa-f6evc9hkgph4hue9.canadacentral-01.azurewebsites.net/unidad-medida";
 
 class UnidadMedidaService {
     findAll() {
