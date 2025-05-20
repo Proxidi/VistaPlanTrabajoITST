@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_BASE = "backend-programa-f6evc9hkgph4hue9.canadacentral-01.azurewebsites.net/mes";
+const URL_BASE = "https://backend-programa-f6evc9hkgph4hue9.canadacentral-01.azurewebsites.net/mes";
 
 class MesService {
 
