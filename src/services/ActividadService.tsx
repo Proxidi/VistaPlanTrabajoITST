@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_BASE = "http://localhost:8080/actividad";
+const URL_BASE = "https://plantrabajoitst-production.up.railway.app/actividad";
 
 class ActividadService {
     findAll() {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8080/plan-trabajo';
+const URL = 'https://plantrabajoitst-production.up.railway.app/plan-trabajo';
 
 class PlanTrabajoService {
     fetchAll() {
